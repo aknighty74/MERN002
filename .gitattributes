@@ -1,3 +1,32 @@
 *.js linguist-language=JavaScript
 *.css linguist-language=CSS
 *.html linguist-language=HTML
+
+# JavaScript files
+*.js linguist-language=JavaScript
+
+# JSON files
+*.json linguist-language=JSON
+
+# HTML files
+*.html linguist-language=HTML
+
+# CSS files
+*.css linguist-language=CSS
+
+# TypeScript files
+*.ts linguist-language=TypeScript
+
+# JSX files (React)
+*.jsx linguist-language=JavaScript
+*.tsx linguist-language=TypeScript
+
+# MongoDB configuration files
+*.config.js linguist-language=JavaScript
+*.config.json linguist-language=JSON
+
+# Express.js server files
+/server/* linguist-language=JavaScript
+
+# React.js client files
+/client/* linguist-language=JavaScript
