@@ -1,15 +1,5 @@
 *.js linguist-language=JavaScript
 *.css linguist-language=CSS
 *.html linguist-language=HTML
-
-*.js linguist-language=JavaScript
 *.json linguist-language=JSON
-*.html linguist-language=HTML
-*.css linguist-language=CSS
-*.ts linguist-language=TypeScript
-*.jsx linguist-language=JavaScript
 *.tsx linguist-language=TypeScript
-*.config.js linguist-language=JavaScript
-*.config.json linguist-language=JSON
-/server/* linguist-language=JavaScript
-/client/* linguist-language=JavaScript
