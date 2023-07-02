@@ -7,13 +7,11 @@ const authRoutes = require("./routes/auth");
 const messageRoutes = require("./routes/messages");
 const app = express();
 const socket = require("socket.io");
-//const helmet = require("helmet");
+
 require("dotenv").config();
 
-//import helmet from "helmet";
 app.use(cors());
 app.use(express.json());
-//app.use(helmet());
 
 mongoose
   .connect(process.env.MONGO_URL, {
