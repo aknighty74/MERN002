@@ -1,4 +1,4 @@
-//app de chat - chatappX
+//app de mensajeria - chatappX
 
 const express = require("express");
 const cors = require("cors");
