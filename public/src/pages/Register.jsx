@@ -102,6 +102,7 @@ export default function Register() {
             type="email"
             placeholder="Email"
             name="email"
+            title="El email debe contener un '@'."
             onChange={(e) => handleChange(e)}
           />
           <input
