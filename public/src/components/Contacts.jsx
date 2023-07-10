@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.png"; //fuente: Icono "Chat Room" por Icons8
 
 export default function Contacts({ contacts, changeChat }) {
   const [currentUserName, setCurrentUserName] = useState(undefined);
