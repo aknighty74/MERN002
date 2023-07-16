@@ -19,10 +19,10 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("Conexion a la DB exitosa");
+    console.log("Conexion a la DB exitosa!");
   })
   .catch((err) => {
-    console.log("No se pudo establecer conexion a la base de datos");
+    console.error("No se pudo establecer conexion a la base de datos:", err);
   });
 
 app.use("/api/auth", authRoutes);
