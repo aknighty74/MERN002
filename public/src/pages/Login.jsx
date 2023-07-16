@@ -127,13 +127,16 @@ const FormContainer = styled.div`
     background-color: transparent;
     padding: 1rem;
     border: 0.1rem solid #ff0e0e;
-    border-radius: 0.4rem;
+    border-radius: 0.3rem;
+    border-width: 0.1rem;
+    border-color: #ff0e0e;
     color: white;
     width: 100%;
     font-size: 1rem;
     &:focus {
-      border: 0.1rem solid #f07e7a;
       outline: none;
+      border: 0.1rem solid #f07e7a;
+      border-style: dashed;
     }
   }
   button {
@@ -143,7 +146,7 @@ const FormContainer = styled.div`
     border: none;
     font-weight: bold;
     cursor: pointer;
-    border-radius: 0.4rem;
+    border-radius: 0.3rem;
     font-size: 1rem;
     text-transform: uppercase;
     &:hover {
