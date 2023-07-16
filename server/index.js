@@ -1,5 +1,6 @@
 //app de mensajeria - chatappX
 
+const helmet = require("helmet");
 const express = require("express");
 const app = express();
 const cors = require("cors");
@@ -10,6 +11,9 @@ const socket = require("socket.io");
 
 require("dotenv").config();
 
+app.disable('x-powered-by');
+app.use(helmet());
+app.use(helmet.hidePoweredBy());
 app.use(express.json());
 app.use(cors());
 
