@@ -1,6 +1,6 @@
 {
   "name": "app-mensajeria",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
@@ -24,7 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "resolve": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "nth-check": "2.0.1"
   },
   "eslintConfig": {
     "extends": [
